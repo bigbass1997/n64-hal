@@ -1,0 +1,13 @@
+[package]
+name = "n64-hal"
+version = "0.0.0"
+edition = "2021"
+authors = ["Luke Stadem <bigbass1997.website@gmail.com>"]
+description = "A HAL for the Nintendo 64 console"
+license = "MIT"
+repository = "https://github.com/bigbass1997/n64-hal"
+keywords = ["no_std", "n64", "hal", "embedded"]
+categories = ["embedded", "no-std", "hardware-support"]
+
+[dependencies]
+n64-pac = "0.3"
